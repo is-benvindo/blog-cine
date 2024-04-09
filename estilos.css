@@ -1,0 +1,109 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #000000; /* Cor do texto preto */
+    margin: 0; /* Remover margem padrão do body */
+}
+
+.barra-superior {
+    background-color: #000000; /* Cor de fundo preta */
+    color: #ffffff; /* Cor do texto branco */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centralizar o texto */
+}
+
+.barra-superior h1 {
+    margin: 0; /* Remover margem padrão do h1 */
+    font-size: 36px; /* Tamanho da fonte */
+}
+
+.conteudo {
+    padding: 20px; /* Espaçamento interno */
+}
+
+.titulo-principal, .subtitulo {
+    background-color: #f2f2f2; /* Cor de fundo para os títulos */
+    padding: 10px; /* Espaçamento interno */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+.subtitulo {
+    font-size: 24px; /* Tamanho da fonte */
+}
+
+.introducao, .descricao {
+    margin-top: 10px; /* Espaçamento superior */
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+.imagem-filme {
+    width: 100%; /* Garantir que a imagem ocupe toda a largura */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adicionar sombra */
+    transition: transform 0.3s ease; /* Adicionar transição suave */
+}
+
+.imagem-filme:hover {
+    transform: scale(1.05); /* Aumentar o tamanho da imagem ao passar o mouse */
+}
+
+/* Novos estilos para o rodapé */
+
+.rodape {
+    background-color: #000000; /* Cor de fundo preta */
+    color: #ffffff; /* Cor do texto branco */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centralizar o texto */
+    margin-top: 40px; /* Espaçamento superior */
+}
+
+.rodape h3 {
+    margin-top: 0; /* Remover margem superior */
+}
+
+.rodape .container {
+    display: flex; /* Utilizar flexbox para alinhar os elementos */
+    justify-content: space-between; /* Distribuir os elementos igualmente */
+}
+
+.rodape .contato,
+.rodape .redes-sociais,
+.rodape .direitos-autorais {
+    flex: 1; /* Ocupar o espaço disponível */
+}
+
+.rodape ul {
+    list-style: none; /* Remover estilos de lista */
+    padding: 0; /* Remover padding padrão */
+}
+
+.rodape ul li {
+    margin-bottom: 5px; /* Espaçamento inferior entre os itens da lista */
+}
+
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a:link, nav a:visited {
+    color: white;
+    text-decoration: none;
+}   
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}    
+
+a:link, a:visited, a:hover,a:active {
+    color: darkslategray;
+    text-decoration: none;
+}
+
+ol {
+    list-style-type: lower-greek;
+}
+
+#menu {
+    margin-right: 2.6%; /* Ajuste este valor conforme necessário */
+}
